@@ -10,6 +10,8 @@ import Charts
 
 struct ContentView: View {
     @State private var motionManager = MotionManager.shared
+    @State private var soundManager = SoundManager.shared
+    @State private var hapticManager = HapticManager.shared
     
     var body: some View {
         ZStack {
@@ -27,7 +29,8 @@ struct ContentView: View {
         .animation(.easeInOut(duration: 0.2), value: motionManager.isShacking)
         .onChange(of: motionManager.isShacking) {
             if motionManager.isShacking {
-                HapticManager.shared.impact(style: .heavy)
+                hapticManager.impact(style: .heavy)
+                soundManager.playSound(sounds: .ding)
             }
         }
         .onAppear {
