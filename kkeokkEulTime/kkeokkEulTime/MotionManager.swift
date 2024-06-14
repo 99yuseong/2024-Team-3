@@ -13,11 +13,13 @@ class MotionManager {
     static let shared = MotionManager()
     private init() {
         _motionManager.deviceMotionUpdateInterval = 0.1
+        _motionManager.showsDeviceMovementDisplay = true
     }
     
     var rollData: [Double] = []
     var pitchData: [Double] = []
     var yawData: [Double] = []
+//    var accelerationMagnitude
     
     @ObservationIgnored var dataCounts: Int { _dataCounts }
     
@@ -31,9 +33,9 @@ extension MotionManager {
             _motionManager.startDeviceMotionUpdates(to: .main) { [weak self] (motion, error) in
                 guard let self = self, let motion = motion else { return }
                 
-                self.rollData.append(motion.attitude.roll)
-                self.pitchData.append(motion.attitude.pitch)
-                self.yawData.append(motion.attitude.yaw)
+                self.rollData.append(motion.attitude.roll.toPositive())
+                self.pitchData.append(motion.attitude.pitch.toPositive())
+                self.yawData.append(motion.attitude.yaw.toPositive())
                 
                 if self.rollData.count > _dataCounts {
                     self.rollData.removeFirst()
@@ -48,4 +50,3 @@ extension MotionManager {
         _motionManager.stopDeviceMotionUpdates()
     }
 }
-

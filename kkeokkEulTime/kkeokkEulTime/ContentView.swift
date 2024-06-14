@@ -18,7 +18,7 @@ struct ContentView: View {
             ChartFor(motionManager.pitchData, label: "pitch", color: .blue)
         }
         .chartXScale(domain: 0...motionManager.dataCounts * 2)
-        .chartYScale(domain: -Double.pi...Double.pi)
+        .chartYScale(domain: 0...Double.pi * 2)
         .onAppear {
             motionManager.startUpdates()
         }
