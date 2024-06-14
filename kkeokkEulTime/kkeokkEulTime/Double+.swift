@@ -9,6 +9,10 @@ import Foundation
 
 extension Double {
     func toPositive() -> Double {
-        return self + Double.pi
+        self + Double.pi
+    }
+    
+    func square() -> Double {
+        self * self
     }
 }

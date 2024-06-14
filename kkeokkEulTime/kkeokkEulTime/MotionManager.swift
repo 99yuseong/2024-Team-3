@@ -19,10 +19,9 @@ class MotionManager {
     var rollData: [Double] = []
     var pitchData: [Double] = []
     var yawData: [Double] = []
-//    var accelerationMagnitude
+    var isShacking: Bool = false
     
     @ObservationIgnored var dataCounts: Int { _dataCounts }
-    
     @ObservationIgnored private let _dataCounts: Int = 100
     @ObservationIgnored private let _motionManager = CMMotionManager()
 }
@@ -33,9 +32,14 @@ extension MotionManager {
             _motionManager.startDeviceMotionUpdates(to: .main) { [weak self] (motion, error) in
                 guard let self = self, let motion = motion else { return }
                 
-                self.rollData.append(motion.attitude.roll.toPositive())
-                self.pitchData.append(motion.attitude.pitch.toPositive())
-                self.yawData.append(motion.attitude.yaw.toPositive())
+                self.rollData.append(motion.attitude.roll)
+                self.pitchData.append(motion.attitude.pitch)
+                self.yawData.append(motion.attitude.yaw)
+                
+                let accelerationMagnitude = sqrt(motion.userAcceleration.x.square() + motion.userAcceleration.y.square() + motion.userAcceleration.z.square())
+                self.isShacking = accelerationMagnitude > 1
+                
+                print(accelerationMagnitude)
                 
                 if self.rollData.count > _dataCounts {
                     self.rollData.removeFirst()

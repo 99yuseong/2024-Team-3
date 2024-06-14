@@ -16,9 +16,15 @@ struct ContentView: View {
             ChartFor(motionManager.rollData, label: "roll", color: .red)
             ChartFor(motionManager.yawData, label: "yaw", color: .green)
             ChartFor(motionManager.pitchData, label: "pitch", color: .blue)
+            
+            Group {
+                motionManager.isShacking ? Color.red : Color.clear
+            }
+            .ignoresSafeArea()
         }
         .chartXScale(domain: 0...motionManager.dataCounts * 2)
-        .chartYScale(domain: 0...Double.pi * 2)
+        .chartYScale(domain: -Double.pi...Double.pi)
+        .animation(.easeInOut(duration: 0.2), value: motionManager.isShacking)
         .onAppear {
             motionManager.startUpdates()
         }
