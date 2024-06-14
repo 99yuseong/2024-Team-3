@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ActionSelectionView: View {
+struct ActionDetailView: View {
     var body: some View {
         Text("ActionSelectionView")
     }
