@@ -25,6 +25,11 @@ struct ContentView: View {
         .chartXScale(domain: 0...motionManager.dataCounts * 2)
         .chartYScale(domain: -Double.pi...Double.pi)
         .animation(.easeInOut(duration: 0.2), value: motionManager.isShacking)
+        .onChange(of: motionManager.isShacking) {
+            if motionManager.isShacking {
+                HapticManager.shared.impact(style: .heavy)
+            }
+        }
         .onAppear {
             motionManager.startUpdates()
         }
