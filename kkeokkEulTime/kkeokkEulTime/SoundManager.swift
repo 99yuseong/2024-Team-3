@@ -21,7 +21,7 @@ class SoundManager {
         
         var filename: String {
             switch self {
-            case .Ding:
+            case .ding:
                 "Ding-sound-effect"
             }
         }
