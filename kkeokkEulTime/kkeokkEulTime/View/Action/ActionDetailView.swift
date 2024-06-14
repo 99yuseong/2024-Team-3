@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ActionDetailView: View {
     let action: ActionModel
-    @State private var isPresented = false
     
     var body: some View {
         VStack(spacing: 14) {
             ZStack(alignment: .bottom) {
-                Image(action.filledImage)
+                Image(action.originalImage)
                     .resizable()
                     .frame(height: 525)
                     .scaledToFill()
@@ -29,7 +28,7 @@ struct ActionDetailView: View {
                 .frame(height: 365)
                 
                 HStack {
-                    Text(action.title)
+                    Text(action.selectionTitle)
                         .font(.system(size: 34, weight: .black)).foregroundColor(.white)
                         .padding(.leading, 20)
                         .padding(.bottom, 24)
@@ -41,27 +40,27 @@ struct ActionDetailView: View {
                 VStack(spacing: 8) {
                     HStack {
                         Image(systemName: "checkmark.shield")
-                        Text("\(action.count)회")
+                        Text("\(action.actionCount)회")
                         Spacer()
                     }
                     .fontWeight(.semibold)
                     
                     HStack {
                         Image(systemName: "gift")
-                        Text(action.gift)
+                        Text(action.giftSetenceShort)
                         Spacer()
                     }
                     .fontWeight(.bold)
                 }
                 
                 VStack {
-                    Text("손목 터널 증후군이 없는 카리나처럼...증후군 자가진단 해보기손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기")
+                    Text(action.selectionDescription)
                         .font(.system(size: 16))
                     
                     Spacer()
                     
                     Button {
-                        isPresented.toggle()
+                        NavigationManager.shared.push(to: .actionTutorial(actionModel: action))
                     } label: {
                         Image(systemName: "play.circle.fill")
                             .resizable()
@@ -70,6 +69,8 @@ struct ActionDetailView: View {
                             .background(.white)
                             .clipShape(Circle())
                     }
+                    
+                    Spacer()
                 }
             }
             .foregroundStyle(.white)
@@ -77,7 +78,22 @@ struct ActionDetailView: View {
         }
         .ignoresSafeArea()
         .background(Color(hex: "323232"))
-        .fullScreenCover(isPresented: $isPresented, content: ActionTutorialView.init)
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button {
+                    NavigationManager.shared.pop()
+                } label: {
+                    Image(systemName: "chevron.left")
+                        .resizable()
+                        .scaledToFit()
+                        .font(.system(size: 17))
+                        .bold()
+                        .foregroundStyle(.white)
+                        .padding(.vertical, 11)
+                }
+                .frame(width: 44, height: 44)
+            }
+        }
     }
 }
 

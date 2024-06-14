@@ -15,7 +15,6 @@
 		4250F9FD2C1C86B3006E83C0 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F9FC2C1C86B3006E83C0 /* Double+.swift */; };
 		4250F9FF2C1C922C006E83C0 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F9FE2C1C922C006E83C0 /* HapticManager.swift */; };
 		4250FA012C1C9450006E83C0 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA002C1C9450006E83C0 /* SoundManager.swift */; };
-		4250FA062C1C96A8006E83C0 /* Ding-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA052C1C96A8006E83C0 /* Ding-sound-effect.mp3 */; };
 		4250FA082C1CAA05006E83C0 /* ActionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */; };
 		4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */; };
 		4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */; };
@@ -39,6 +38,17 @@
 		4250FA3B2C1CE241006E83C0 /* OnboardingMotionSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA3A2C1CE241006E83C0 /* OnboardingMotionSecondView.swift */; };
 		4250FA3D2C1CE315006E83C0 /* OnboardingMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA3C2C1CE315006E83C0 /* OnboardingMoveView.swift */; };
 		4250FA3F2C1CE54E006E83C0 /* OnboardingFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA3E2C1CE54E006E83C0 /* OnboardingFinishView.swift */; };
+		4250FA422C1CF079006E83C0 /* all.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA412C1CF079006E83C0 /* all.mp4 */; };
+		4250FA462C1CF1CC006E83C0 /* getOut.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA452C1CF1CC006E83C0 /* getOut.mp4 */; };
+		4250FA482C1CF1DF006E83C0 /* cutter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA472C1CF1DF006E83C0 /* cutter.mp4 */; };
+		4250FA4A2C1CF1E9006E83C0 /* shake.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA492C1CF1E9006E83C0 /* shake.mp4 */; };
+		4250FA4C2C1CF1F8006E83C0 /* woiWoi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA4B2C1CF1F8006E83C0 /* woiWoi.mp4 */; };
+		4250FA4E2C1CF204006E83C0 /* nextLevel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA4D2C1CF204006E83C0 /* nextLevel.mp4 */; };
+		4250FA502C1CFFE3006E83C0 /* MotionPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA4F2C1CFFE3006E83C0 /* MotionPracticeView.swift */; };
+		4250FA522C1D0041006E83C0 /* countDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA512C1D0041006E83C0 /* countDown.mp3 */; };
+		4250FA542C1D004E006E83C0 /* motionDoing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA532C1D004E006E83C0 /* motionDoing.mp3 */; };
+		4250FA562C1D005A006E83C0 /* motionDone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA552C1D005A006E83C0 /* motionDone.mp3 */; };
+		4250FA582C1D0ACE006E83C0 /* MotionPracticeFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA572C1D0ACE006E83C0 /* MotionPracticeFinishView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +61,6 @@
 		4250F9FC2C1C86B3006E83C0 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		4250F9FE2C1C922C006E83C0 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		4250FA002C1C9450006E83C0 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		4250FA052C1C96A8006E83C0 /* Ding-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ding-sound-effect.mp3"; sourceTree = "<group>"; };
 		4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSelectionView.swift; sourceTree = "<group>"; };
 		4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDetailView.swift; sourceTree = "<group>"; };
 		4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTutorialView.swift; sourceTree = "<group>"; };
@@ -76,6 +85,17 @@
 		4250FA3A2C1CE241006E83C0 /* OnboardingMotionSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMotionSecondView.swift; sourceTree = "<group>"; };
 		4250FA3C2C1CE315006E83C0 /* OnboardingMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMoveView.swift; sourceTree = "<group>"; };
 		4250FA3E2C1CE54E006E83C0 /* OnboardingFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFinishView.swift; sourceTree = "<group>"; };
+		4250FA412C1CF079006E83C0 /* all.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = all.mp4; sourceTree = "<group>"; };
+		4250FA452C1CF1CC006E83C0 /* getOut.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = getOut.mp4; sourceTree = "<group>"; };
+		4250FA472C1CF1DF006E83C0 /* cutter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cutter.mp4; sourceTree = "<group>"; };
+		4250FA492C1CF1E9006E83C0 /* shake.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shake.mp4; sourceTree = "<group>"; };
+		4250FA4B2C1CF1F8006E83C0 /* woiWoi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = woiWoi.mp4; sourceTree = "<group>"; };
+		4250FA4D2C1CF204006E83C0 /* nextLevel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nextLevel.mp4; sourceTree = "<group>"; };
+		4250FA4F2C1CFFE3006E83C0 /* MotionPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionPracticeView.swift; sourceTree = "<group>"; };
+		4250FA512C1D0041006E83C0 /* countDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countDown.mp3; sourceTree = "<group>"; };
+		4250FA532C1D004E006E83C0 /* motionDoing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = motionDoing.mp3; sourceTree = "<group>"; };
+		4250FA552C1D005A006E83C0 /* motionDone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = motionDone.mp3; sourceTree = "<group>"; };
+		4250FA572C1D0ACE006E83C0 /* MotionPracticeFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionPracticeFinishView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +134,9 @@
 				4250FA142C1CD70D006E83C0 /* View */,
 				4250F9EE2C1C7C8E006E83C0 /* ContentView.swift */,
 				4250F9FC2C1C86B3006E83C0 /* Double+.swift */,
-				4250F9FA2C1C7D80006E83C0 /* MotionManager.swift */,
-				4250F9FE2C1C922C006E83C0 /* HapticManager.swift */,
-				4250FA002C1C9450006E83C0 /* SoundManager.swift */,
-				4250FA0F2C1CC492006E83C0 /* ActionModel.swift */,
-				4250FA362C1CDF4D006E83C0 /* NavigationManager.swift */,
+				4250FA442C1CF165006E83C0 /* Helper */,
+				4250FA432C1CF15C006E83C0 /* Model */,
 				4250FA2E2C1CD8B7006E83C0 /* Pretendard.swift */,
-				4250FA042C1C9479006E83C0 /* Sounds */,
 				4250F9F02C1C7C8F006E83C0 /* Assets.xcassets */,
 				4250F9F22C1C7C8F006E83C0 /* Preview Content */,
 				4250FA112C1CC7CB006E83C0 /* Color+.swift */,
@@ -139,7 +155,9 @@
 		4250FA042C1C9479006E83C0 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				4250FA052C1C96A8006E83C0 /* Ding-sound-effect.mp3 */,
+				4250FA552C1D005A006E83C0 /* motionDone.mp3 */,
+				4250FA532C1D004E006E83C0 /* motionDoing.mp3 */,
+				4250FA512C1D0041006E83C0 /* countDown.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -161,6 +179,8 @@
 				4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */,
 				4250FA302C1CDA79006E83C0 /* MotionTryView.swift */,
 				4250FA322C1CDA8B006E83C0 /* MotionTryDetailView.swift */,
+				4250FA4F2C1CFFE3006E83C0 /* MotionPracticeView.swift */,
+				4250FA572C1D0ACE006E83C0 /* MotionPracticeFinishView.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -180,6 +200,8 @@
 		4250FA192C1CD7E3006E83C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4250FA402C1CF070006E83C0 /* Videos */,
+				4250FA042C1C9479006E83C0 /* Sounds */,
 				4250FA1A2C1CD7ED006E83C0 /* Fonts */,
 			);
 			path = Resources;
@@ -199,6 +221,38 @@
 				4250FA1F2C1CD7F9006E83C0 /* Pretendard-Thin.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4250FA402C1CF070006E83C0 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA4D2C1CF204006E83C0 /* nextLevel.mp4 */,
+				4250FA452C1CF1CC006E83C0 /* getOut.mp4 */,
+				4250FA472C1CF1DF006E83C0 /* cutter.mp4 */,
+				4250FA492C1CF1E9006E83C0 /* shake.mp4 */,
+				4250FA4B2C1CF1F8006E83C0 /* woiWoi.mp4 */,
+				4250FA412C1CF079006E83C0 /* all.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		4250FA432C1CF15C006E83C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA0F2C1CC492006E83C0 /* ActionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4250FA442C1CF165006E83C0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4250F9FE2C1C922C006E83C0 /* HapticManager.swift */,
+				4250FA002C1C9450006E83C0 /* SoundManager.swift */,
+				4250FA362C1CDF4D006E83C0 /* NavigationManager.swift */,
+				4250F9FA2C1C7D80006E83C0 /* MotionManager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,17 +313,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4250FA062C1C96A8006E83C0 /* Ding-sound-effect.mp3 in Resources */,
 				4250FA262C1CD7F9006E83C0 /* Pretendard-Bold.otf in Resources */,
 				4250FA2A2C1CD7F9006E83C0 /* Pretendard-ExtraLight.otf in Resources */,
+				4250FA462C1CF1CC006E83C0 /* getOut.mp4 in Resources */,
 				4250FA2C2C1CD7F9006E83C0 /* Pretendard-SemiBold.otf in Resources */,
 				4250FA252C1CD7F9006E83C0 /* Pretendard-Medium.otf in Resources */,
+				4250FA522C1D0041006E83C0 /* countDown.mp3 in Resources */,
 				4250FA282C1CD7F9006E83C0 /* Pretendard-Thin.otf in Resources */,
+				4250FA4E2C1CF204006E83C0 /* nextLevel.mp4 in Resources */,
+				4250FA4A2C1CF1E9006E83C0 /* shake.mp4 in Resources */,
 				4250FA292C1CD7F9006E83C0 /* Pretendard-Black.otf in Resources */,
+				4250FA562C1D005A006E83C0 /* motionDone.mp3 in Resources */,
 				4250FA2B2C1CD7F9006E83C0 /* Pretendard-ExtraBold.otf in Resources */,
 				4250FA242C1CD7F9006E83C0 /* Pretendard-Light.otf in Resources */,
 				4250FA272C1CD7F9006E83C0 /* Pretendard-Regular.otf in Resources */,
+				4250FA422C1CF079006E83C0 /* all.mp4 in Resources */,
 				4250F9F42C1C7C8F006E83C0 /* Preview Assets.xcassets in Resources */,
+				4250FA542C1D004E006E83C0 /* motionDoing.mp3 in Resources */,
+				4250FA482C1CF1DF006E83C0 /* cutter.mp4 in Resources */,
+				4250FA4C2C1CF1F8006E83C0 /* woiWoi.mp4 in Resources */,
 				4250F9F12C1C7C8F006E83C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4250FA502C1CFFE3006E83C0 /* MotionPracticeView.swift in Sources */,
 				4250F9EF2C1C7C8E006E83C0 /* ContentView.swift in Sources */,
 				4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */,
 				4250FA3B2C1CE241006E83C0 /* OnboardingMotionSecondView.swift in Sources */,
@@ -290,6 +353,7 @@
 				4250F9FD2C1C86B3006E83C0 /* Double+.swift in Sources */,
 				4250FA102C1CC492006E83C0 /* ActionModel.swift in Sources */,
 				4250F9ED2C1C7C8E006E83C0 /* kkeokkEulTimeApp.swift in Sources */,
+				4250FA582C1D0ACE006E83C0 /* MotionPracticeFinishView.swift in Sources */,
 				4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */,
 				4250FA352C1CDDCB006E83C0 /* OnboardingMotionFirstView.swift in Sources */,
 				4250FA312C1CDA79006E83C0 /* MotionTryView.swift in Sources */,

@@ -17,12 +17,18 @@ class SoundManager {
     
     // TODO: - 음악에 맞게 수정
     enum soundOption {
-        case ding
+        case countDown
+        case motionDoing
+        case motionDone
         
         var filename: String {
             switch self {
-            case .ding:
-                "Ding-sound-effect"
+            case .countDown:
+                "countDown"
+            case .motionDoing:
+                "motionDoing"
+            case .motionDone:
+                "motionDone"
             }
         }
     }

@@ -14,6 +14,15 @@ enum WristMotion {
     case unFolded
 }
 
+enum ActionType {
+    case all
+    case nextLevel
+    case getOut
+    case cutter
+    case shake
+    case woiWoi
+}
+
 @Observable
 class MotionManager {
     static let shared = MotionManager()
@@ -93,5 +102,22 @@ extension MotionManager {
     
     func stopUpdates() {
         _motionManager.stopDeviceMotionUpdates()
+    }
+    
+    func isDetected(type: ActionType) -> Bool {
+        switch type {
+        case .nextLevel:
+            return isNextLevel
+        case .getOut:
+            return isGetOut
+        case .cutter:
+            return isCutter == .rolled || isCutter == .unFolded
+        case .shake:
+            return isShacking
+        case .woiWoi:
+            return isWoiWoi == .rolled || isWoiWoi == .unFolded
+        default:
+            return false
+        }
     }
 }

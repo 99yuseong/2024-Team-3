@@ -20,7 +20,7 @@ struct ActionSelectionView: View {
                     .padding(.top, 12)
                     .padding(.bottom, 22)
                 
-                ForEach(ActionModel.details, id: \.title) { actionModel in
+                ForEach(ActionModel.details, id: \.selectionTitle) { actionModel in
                     SelectionView(action: actionModel)
                 }
             }
@@ -39,7 +39,7 @@ extension ActionSelectionView {
             NavigationManager.shared.push(to: .actionDetail(actionModel: action))
         } label: {
             ZStack {
-                Image(action.image)
+                Image(action.selectionImage)
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(12)
@@ -57,7 +57,7 @@ extension ActionSelectionView {
                 .offset(x: -130)
                 
                 HStack {
-                    Text(action.title)
+                    Text(action.selectionTitle)
                         .font(.system(size: 20, weight: .bold))
                         .foregroundColor(.white)
                     

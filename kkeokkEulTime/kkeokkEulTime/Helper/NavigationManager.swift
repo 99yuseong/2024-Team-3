@@ -16,6 +16,11 @@ enum PathType: Hashable {
     
     case actionSelection
     case actionDetail(actionModel: ActionModel)
+    case actionTutorial(actionModel: ActionModel)
+    case motionTry(actionModel: ActionModel)
+    case motionTryDetail(actionModel: ActionModel)
+    case motionPractice(actionModel: ActionModel)
+    case motionPracticeFinish(actionModel: ActionModel)
 }
 
 extension PathType {
@@ -36,6 +41,16 @@ extension PathType {
             ActionSelectionView()
         case .actionDetail(let actionModel):
             ActionDetailView(action: actionModel)
+        case .actionTutorial(let actionModel):
+            ActionTutorialView(action: actionModel)
+        case .motionTry(let actionModel):
+            MotionTryView(action: actionModel)
+        case .motionTryDetail(let actionModel):
+            MotionTryDetailView(action: actionModel)
+        case .motionPractice(let actionModel):
+            MotionPracticeView(action: actionModel)
+        case .motionPracticeFinish(let actionModel):
+            MotionPracticeFinishView(action: actionModel)
         }
     }
 }

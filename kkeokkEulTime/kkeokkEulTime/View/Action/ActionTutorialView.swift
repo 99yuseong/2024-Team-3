@@ -5,58 +5,81 @@ struct ActionTutorialView: View {
     @Environment(\.dismiss) var dismiss
     
     @State private var player: AVPlayer?
-    @State private var isVideoEnded = false
-    @State private var isSkipButtonTapped = false
+    
+    let action: ActionModel
 
+    init(action: ActionModel) {
+        if let videoURL = Bundle.main.url(forResource: action.tutorialVideo, withExtension: "mp4") {
+            player = AVPlayer(url: videoURL)
+        }
+        self.action = action
+    }
+    
     var body: some View {
-        NavigationStack{
-                ZStack{
-                if let videoURL = Bundle.main.url(forResource: "All", withExtension: "mp4") {
-                    VideoPlayer(player: player)
-                        .onAppear {
-                            player = AVPlayer(url: videoURL)
-                            NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: player?.currentItem, queue: .main) { _ in
-                                isVideoEnded = true
-                            }
-                            player?.play()
+        ZStack {
+            if let player = player {
+                VideoPlayerView(player: player)
+                    .onAppear {
+                        NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: player.currentItem, queue: .main) { _ in
+                            NavigationManager.shared.push(to: .motionTry(actionModel: action))
                         }
-                        .onDisappear {
-                            NotificationCenter.default.removeObserver(self, name: .AVPlayerItemDidPlayToEndTime, object: player?.currentItem)
-                        }
-                } else {
-                    Text("비디오 파일을 찾을 수 없습니다.")
-                        .foregroundColor(.red)
-                        .padding()
-                }
-                    VStack{
-                        Spacer()
-                        Button(action: {
-                            isSkipButtonTapped = true
-                        }) {
-                            Image("SkipButton")
-                        }
+                        player.play()
                     }
-                    .padding(.bottom,20)
-                .padding()
+                    .onDisappear {
+                        NotificationCenter.default.removeObserver(self, name: .AVPlayerItemDidPlayToEndTime, object: player.currentItem)
+                        player.pause()
+                        self.player = nil
+                    }
+            } else {
+                Text("비디오를 찾을 수 없습니다.")
             }
-            .background(
-                NavigationLink(destination: MotionTryView(), isActive: $isVideoEnded) {
-                    EmptyView()
+            
+            VStack{
+                Spacer()
+                Button {
+                    NavigationManager.shared.push(to: .motionTry(actionModel: action))
+                } label: {
+                    Image("SkipButton")
                 }
-                    .hidden()
-            )
-            .background(
-                NavigationLink(destination: MotionTryView(), isActive: $isSkipButtonTapped) {
-                    EmptyView()
-                }
-                    .hidden()
-            )
+            }
+            .padding(.bottom, 40)
+            .padding()
             .edgesIgnoringSafeArea(.all)
         }
     }
 }
 
+struct VideoPlayerView: UIViewRepresentable {
+    let player: AVPlayer
+
+    func makeUIView(context: Context) -> UIView {
+        return PlayerUIView(player: player)
+    }
+
+    func updateUIView(_ uiView: UIView, context: Context) {
+        
+    }
+}
+
+class PlayerUIView: UIView {
+    private let playerLayer = AVPlayerLayer()
+
+    init(player: AVPlayer) {
+        super.init(frame: .zero)
+        self.playerLayer.player = player
+        self.layer.addSublayer(playerLayer)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        playerLayer.frame = bounds
+    }
+}
 
 #Preview {
-    ActionTutorialView()
+    ActionTutorialView(action: ActionModel.details.first!)
 }

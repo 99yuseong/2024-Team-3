@@ -31,7 +31,6 @@ struct ContentView: View {
             .onChange(of: motionManager.isShacking) {
                 if motionManager.isShacking {
                     hapticManager.impact(style: .heavy)
-                    soundManager.playSound(sounds: .ding)
                 }
             }
             .onAppear {
