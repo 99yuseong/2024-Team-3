@@ -21,6 +21,24 @@
 		4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */; };
 		4250FA102C1CC492006E83C0 /* ActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA0F2C1CC492006E83C0 /* ActionModel.swift */; };
 		4250FA122C1CC7CB006E83C0 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA112C1CC7CB006E83C0 /* Color+.swift */; };
+		4250FA182C1CD739006E83C0 /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA172C1CD739006E83C0 /* OnboardingMainView.swift */; };
+		4250FA242C1CD7F9006E83C0 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA1B2C1CD7F8006E83C0 /* Pretendard-Light.otf */; };
+		4250FA252C1CD7F9006E83C0 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA1C2C1CD7F8006E83C0 /* Pretendard-Medium.otf */; };
+		4250FA262C1CD7F9006E83C0 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA1D2C1CD7F8006E83C0 /* Pretendard-Bold.otf */; };
+		4250FA272C1CD7F9006E83C0 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA1E2C1CD7F8006E83C0 /* Pretendard-Regular.otf */; };
+		4250FA282C1CD7F9006E83C0 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA1F2C1CD7F9006E83C0 /* Pretendard-Thin.otf */; };
+		4250FA292C1CD7F9006E83C0 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA202C1CD7F9006E83C0 /* Pretendard-Black.otf */; };
+		4250FA2A2C1CD7F9006E83C0 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA212C1CD7F9006E83C0 /* Pretendard-ExtraLight.otf */; };
+		4250FA2B2C1CD7F9006E83C0 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA222C1CD7F9006E83C0 /* Pretendard-ExtraBold.otf */; };
+		4250FA2C2C1CD7F9006E83C0 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA232C1CD7F9006E83C0 /* Pretendard-SemiBold.otf */; };
+		4250FA2F2C1CD8B7006E83C0 /* Pretendard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA2E2C1CD8B7006E83C0 /* Pretendard.swift */; };
+		4250FA312C1CDA79006E83C0 /* MotionTryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA302C1CDA79006E83C0 /* MotionTryView.swift */; };
+		4250FA332C1CDA8B006E83C0 /* MotionTryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA322C1CDA8B006E83C0 /* MotionTryDetailView.swift */; };
+		4250FA352C1CDDCB006E83C0 /* OnboardingMotionFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA342C1CDDCB006E83C0 /* OnboardingMotionFirstView.swift */; };
+		4250FA372C1CDF4D006E83C0 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA362C1CDF4D006E83C0 /* NavigationManager.swift */; };
+		4250FA3B2C1CE241006E83C0 /* OnboardingMotionSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA3A2C1CE241006E83C0 /* OnboardingMotionSecondView.swift */; };
+		4250FA3D2C1CE315006E83C0 /* OnboardingMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA3C2C1CE315006E83C0 /* OnboardingMoveView.swift */; };
+		4250FA3F2C1CE54E006E83C0 /* OnboardingFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA3E2C1CE54E006E83C0 /* OnboardingFinishView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +57,25 @@
 		4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTutorialView.swift; sourceTree = "<group>"; };
 		4250FA0F2C1CC492006E83C0 /* ActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModel.swift; sourceTree = "<group>"; };
 		4250FA112C1CC7CB006E83C0 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		4250FA172C1CD739006E83C0 /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
+		4250FA1B2C1CD7F8006E83C0 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		4250FA1C2C1CD7F8006E83C0 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		4250FA1D2C1CD7F8006E83C0 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		4250FA1E2C1CD7F8006E83C0 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		4250FA1F2C1CD7F9006E83C0 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		4250FA202C1CD7F9006E83C0 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		4250FA212C1CD7F9006E83C0 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		4250FA222C1CD7F9006E83C0 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		4250FA232C1CD7F9006E83C0 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		4250FA2D2C1CD817006E83C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4250FA2E2C1CD8B7006E83C0 /* Pretendard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretendard.swift; sourceTree = "<group>"; };
+		4250FA302C1CDA79006E83C0 /* MotionTryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTryView.swift; sourceTree = "<group>"; };
+		4250FA322C1CDA8B006E83C0 /* MotionTryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTryDetailView.swift; sourceTree = "<group>"; };
+		4250FA342C1CDDCB006E83C0 /* OnboardingMotionFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMotionFirstView.swift; sourceTree = "<group>"; };
+		4250FA362C1CDF4D006E83C0 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		4250FA3A2C1CE241006E83C0 /* OnboardingMotionSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMotionSecondView.swift; sourceTree = "<group>"; };
+		4250FA3C2C1CE315006E83C0 /* OnboardingMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMoveView.swift; sourceTree = "<group>"; };
+		4250FA3E2C1CE54E006E83C0 /* OnboardingFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFinishView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +108,18 @@
 		4250F9EB2C1C7C8E006E83C0 /* kkeokkEulTime */ = {
 			isa = PBXGroup;
 			children = (
+				4250FA2D2C1CD817006E83C0 /* Info.plist */,
 				4250F9EC2C1C7C8E006E83C0 /* kkeokkEulTimeApp.swift */,
-				4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */,
-				4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */,
-				4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */,
+				4250FA192C1CD7E3006E83C0 /* Resources */,
+				4250FA142C1CD70D006E83C0 /* View */,
 				4250F9EE2C1C7C8E006E83C0 /* ContentView.swift */,
 				4250F9FC2C1C86B3006E83C0 /* Double+.swift */,
 				4250F9FA2C1C7D80006E83C0 /* MotionManager.swift */,
 				4250F9FE2C1C922C006E83C0 /* HapticManager.swift */,
 				4250FA002C1C9450006E83C0 /* SoundManager.swift */,
 				4250FA0F2C1CC492006E83C0 /* ActionModel.swift */,
+				4250FA362C1CDF4D006E83C0 /* NavigationManager.swift */,
+				4250FA2E2C1CD8B7006E83C0 /* Pretendard.swift */,
 				4250FA042C1C9479006E83C0 /* Sounds */,
 				4250F9F02C1C7C8F006E83C0 /* Assets.xcassets */,
 				4250F9F22C1C7C8F006E83C0 /* Preview Content */,
@@ -103,6 +142,63 @@
 				4250FA052C1C96A8006E83C0 /* Ding-sound-effect.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		4250FA142C1CD70D006E83C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA162C1CD722006E83C0 /* OnBoarding */,
+				4250FA152C1CD71A006E83C0 /* Action */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4250FA152C1CD71A006E83C0 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */,
+				4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */,
+				4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */,
+				4250FA302C1CDA79006E83C0 /* MotionTryView.swift */,
+				4250FA322C1CDA8B006E83C0 /* MotionTryDetailView.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		4250FA162C1CD722006E83C0 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA172C1CD739006E83C0 /* OnboardingMainView.swift */,
+				4250FA342C1CDDCB006E83C0 /* OnboardingMotionFirstView.swift */,
+				4250FA3A2C1CE241006E83C0 /* OnboardingMotionSecondView.swift */,
+				4250FA3C2C1CE315006E83C0 /* OnboardingMoveView.swift */,
+				4250FA3E2C1CE54E006E83C0 /* OnboardingFinishView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		4250FA192C1CD7E3006E83C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA1A2C1CD7ED006E83C0 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4250FA1A2C1CD7ED006E83C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA202C1CD7F9006E83C0 /* Pretendard-Black.otf */,
+				4250FA1D2C1CD7F8006E83C0 /* Pretendard-Bold.otf */,
+				4250FA222C1CD7F9006E83C0 /* Pretendard-ExtraBold.otf */,
+				4250FA212C1CD7F9006E83C0 /* Pretendard-ExtraLight.otf */,
+				4250FA1B2C1CD7F8006E83C0 /* Pretendard-Light.otf */,
+				4250FA1C2C1CD7F8006E83C0 /* Pretendard-Medium.otf */,
+				4250FA1E2C1CD7F8006E83C0 /* Pretendard-Regular.otf */,
+				4250FA232C1CD7F9006E83C0 /* Pretendard-SemiBold.otf */,
+				4250FA1F2C1CD7F9006E83C0 /* Pretendard-Thin.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +260,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4250FA062C1C96A8006E83C0 /* Ding-sound-effect.mp3 in Resources */,
+				4250FA262C1CD7F9006E83C0 /* Pretendard-Bold.otf in Resources */,
+				4250FA2A2C1CD7F9006E83C0 /* Pretendard-ExtraLight.otf in Resources */,
+				4250FA2C2C1CD7F9006E83C0 /* Pretendard-SemiBold.otf in Resources */,
+				4250FA252C1CD7F9006E83C0 /* Pretendard-Medium.otf in Resources */,
+				4250FA282C1CD7F9006E83C0 /* Pretendard-Thin.otf in Resources */,
+				4250FA292C1CD7F9006E83C0 /* Pretendard-Black.otf in Resources */,
+				4250FA2B2C1CD7F9006E83C0 /* Pretendard-ExtraBold.otf in Resources */,
+				4250FA242C1CD7F9006E83C0 /* Pretendard-Light.otf in Resources */,
+				4250FA272C1CD7F9006E83C0 /* Pretendard-Regular.otf in Resources */,
 				4250F9F42C1C7C8F006E83C0 /* Preview Assets.xcassets in Resources */,
 				4250F9F12C1C7C8F006E83C0 /* Assets.xcassets in Resources */,
 			);
@@ -178,14 +283,23 @@
 			files = (
 				4250F9EF2C1C7C8E006E83C0 /* ContentView.swift in Sources */,
 				4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */,
+				4250FA3B2C1CE241006E83C0 /* OnboardingMotionSecondView.swift in Sources */,
+				4250FA332C1CDA8B006E83C0 /* MotionTryDetailView.swift in Sources */,
 				4250F9FF2C1C922C006E83C0 /* HapticManager.swift in Sources */,
 				4250F9FB2C1C7D80006E83C0 /* MotionManager.swift in Sources */,
 				4250F9FD2C1C86B3006E83C0 /* Double+.swift in Sources */,
 				4250FA102C1CC492006E83C0 /* ActionModel.swift in Sources */,
 				4250F9ED2C1C7C8E006E83C0 /* kkeokkEulTimeApp.swift in Sources */,
 				4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */,
+				4250FA352C1CDDCB006E83C0 /* OnboardingMotionFirstView.swift in Sources */,
+				4250FA312C1CDA79006E83C0 /* MotionTryView.swift in Sources */,
+				4250FA3F2C1CE54E006E83C0 /* OnboardingFinishView.swift in Sources */,
+				4250FA3D2C1CE315006E83C0 /* OnboardingMoveView.swift in Sources */,
+				4250FA372C1CDF4D006E83C0 /* NavigationManager.swift in Sources */,
 				4250FA122C1CC7CB006E83C0 /* Color+.swift in Sources */,
 				4250FA012C1C9450006E83C0 /* SoundManager.swift in Sources */,
+				4250FA182C1CD739006E83C0 /* OnboardingMainView.swift in Sources */,
+				4250FA2F2C1CD8B7006E83C0 /* Pretendard.swift in Sources */,
 				4250FA082C1CAA05006E83C0 /* ActionSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +437,7 @@
 				DEVELOPMENT_TEAM = Q6CK9777WL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kkeokkEulTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -352,6 +467,7 @@
 				DEVELOPMENT_TEAM = Q6CK9777WL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kkeokkEulTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

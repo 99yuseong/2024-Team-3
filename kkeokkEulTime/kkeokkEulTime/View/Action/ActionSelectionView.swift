@@ -9,34 +9,35 @@ import SwiftUI
 
 struct ActionSelectionView: View {
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(spacing: 10) {
-                    SelectionView(action: ActionModel.all)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 12)
-                                .stroke(Color(hex: "12DE89"), lineWidth: 3)
-                            
-                            )
-                        .padding(.top, 12)
-                        .padding(.bottom, 22)
-                    
-                    ForEach(ActionModel.details, id: \.title) { actionModel in
-                        SelectionView(action: actionModel)
-                    }
+        ScrollView {
+            VStack(spacing: 10) {
+                SelectionView(action: ActionModel.all)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12)
+                            .stroke(Color(hex: "12DE89"), lineWidth: 3)
+                        
+                    )
+                    .padding(.top, 12)
+                    .padding(.bottom, 22)
+                
+                ForEach(ActionModel.details, id: \.title) { actionModel in
+                    SelectionView(action: actionModel)
                 }
-                .padding(.horizontal, 16)
             }
-            .background(Color(hex: "#323232"))
-            .navigationTitle("꺾기")
+            .padding(.horizontal, 16)
         }
+        .background(Color(hex: "#323232"))
+        .navigationBarTitleDisplayMode(.large)
+        .navigationTitle("꺾기")
     }
 }
 
 extension ActionSelectionView {
     @ViewBuilder
     func SelectionView(action: ActionModel) -> some View {
-        NavigationLink(destination: ActionDetailView(action: action)) {
+        Button {
+            NavigationManager.shared.push(to: .actionDetail(actionModel: action))
+        } label: {
             ZStack {
                 Image(action.image)
                     .resizable()

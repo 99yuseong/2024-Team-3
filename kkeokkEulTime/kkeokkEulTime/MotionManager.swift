@@ -80,7 +80,7 @@ extension MotionManager {
                 self.isNextLevel = abs(abs(pitch) - abs(roll)) < 0.1
                 
                 // MARK: - 5. 털어
-                self.isShacking = accelerationMagnitude > 1
+                self.isShacking = accelerationMagnitude > 1.5
                 
                 if self.rollData.count > _dataCounts {
                     self.rollData.removeFirst()

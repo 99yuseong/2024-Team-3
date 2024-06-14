@@ -1,6 +1,6 @@
 import Foundation
 
-struct ActionModel {
+struct ActionModel: Hashable {
     let image: String
     let filledImage: String
     let title: String

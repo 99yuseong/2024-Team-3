@@ -8,11 +8,19 @@
 import SwiftUI
 
 @main
-struct kkeokkEulTimeApp: App {
+struct kkeokkEulTimeApp: App {    
+    @State private var navigationManager = NavigationManager.shared
+    
     var body: some Scene {
         WindowGroup {
-            ActionSelectionView()
-                .preferredColorScheme(.dark)
+            NavigationStack(path: $navigationManager.path) {
+                ActionSelectionView()
+                    .navigationDestination(for: PathType.self) { path in
+                        path.NavigatingView()
+                            .navigationBarBackButtonHidden()
+                    }
+            }
+            .preferredColorScheme(.dark)
         }
     }
 }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ActionDetailView: View {
     let action: ActionModel
+    @State private var isPresented = false
     
     var body: some View {
         VStack(spacing: 14) {
@@ -60,7 +61,7 @@ struct ActionDetailView: View {
                     Spacer()
                     
                     Button {
-                        // TODO: - 동영상 재생
+                        isPresented.toggle()
                     } label: {
                         Image(systemName: "play.circle.fill")
                             .resizable()
@@ -76,6 +77,7 @@ struct ActionDetailView: View {
         }
         .ignoresSafeArea()
         .background(Color(hex: "323232"))
+        .fullScreenCover(isPresented: $isPresented, content: ActionTutorialView.init)
     }
 }
 
