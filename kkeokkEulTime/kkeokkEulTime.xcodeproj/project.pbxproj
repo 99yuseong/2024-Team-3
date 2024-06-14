@@ -16,6 +16,9 @@
 		4250F9FF2C1C922C006E83C0 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250F9FE2C1C922C006E83C0 /* HapticManager.swift */; };
 		4250FA012C1C9450006E83C0 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA002C1C9450006E83C0 /* SoundManager.swift */; };
 		4250FA062C1C96A8006E83C0 /* Ding-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA052C1C96A8006E83C0 /* Ding-sound-effect.mp3 */; };
+		4250FA082C1CAA05006E83C0 /* ActionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */; };
+		4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */; };
+		4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		4250F9FE2C1C922C006E83C0 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		4250FA002C1C9450006E83C0 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		4250FA052C1C96A8006E83C0 /* Ding-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ding-sound-effect.mp3"; sourceTree = "<group>"; };
+		4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSelectionView.swift; sourceTree = "<group>"; };
+		4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDetailView.swift; sourceTree = "<group>"; };
+		4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				4250F9EC2C1C7C8E006E83C0 /* kkeokkEulTimeApp.swift */,
+				4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */,
+				4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */,
+				4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */,
 				4250F9EE2C1C7C8E006E83C0 /* ContentView.swift */,
 				4250F9FC2C1C86B3006E83C0 /* Double+.swift */,
 				4250F9FA2C1C7D80006E83C0 /* MotionManager.swift */,
@@ -162,11 +171,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4250F9EF2C1C7C8E006E83C0 /* ContentView.swift in Sources */,
+				4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */,
 				4250F9FF2C1C922C006E83C0 /* HapticManager.swift in Sources */,
 				4250F9FB2C1C7D80006E83C0 /* MotionManager.swift in Sources */,
 				4250F9FD2C1C86B3006E83C0 /* Double+.swift in Sources */,
 				4250F9ED2C1C7C8E006E83C0 /* kkeokkEulTimeApp.swift in Sources */,
+				4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */,
 				4250FA012C1C9450006E83C0 /* SoundManager.swift in Sources */,
+				4250FA082C1CAA05006E83C0 /* ActionSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
