@@ -14,30 +14,32 @@ struct ContentView: View {
     @State private var hapticManager = HapticManager.shared
     
     var body: some View {
-        ZStack {
-            ChartFor(motionManager.rollData, label: "roll", color: .red)
-            ChartFor(motionManager.yawData, label: "yaw", color: .green)
-            ChartFor(motionManager.pitchData, label: "pitch", color: .blue)
-            
-            Group {
-                motionManager.isShacking ? Color.red : Color.clear
+        VStack {
+            ZStack {
+                ChartFor(motionManager.rollData, label: "roll", color: .red)
+                ChartFor(motionManager.yawData, label: "yaw", color: .green)
+                ChartFor(motionManager.pitchData, label: "pitch", color: .blue)
+                
+                Group {
+                    motionManager.isShacking ? Color.red : Color.clear
+                }
+                .ignoresSafeArea()
             }
-            .ignoresSafeArea()
-        }
-        .chartXScale(domain: 0...motionManager.dataCounts * 2)
-        .chartYScale(domain: -Double.pi...Double.pi)
-        .animation(.easeInOut(duration: 0.2), value: motionManager.isShacking)
-        .onChange(of: motionManager.isShacking) {
-            if motionManager.isShacking {
-                hapticManager.impact(style: .heavy)
-                soundManager.playSound(sounds: .ding)
+            .chartXScale(domain: 0...motionManager.dataCounts * 2)
+            .chartYScale(domain: -Double.pi...Double.pi)
+            .animation(.easeInOut(duration: 0.2), value: motionManager.isShacking)
+            .onChange(of: motionManager.isShacking) {
+                if motionManager.isShacking {
+                    hapticManager.impact(style: .heavy)
+                    soundManager.playSound(sounds: .ding)
+                }
             }
-        }
-        .onAppear {
-            motionManager.startUpdates()
-        }
-        .onDisappear {
-            motionManager.stopUpdates()
+            .onAppear {
+                motionManager.startUpdates()
+            }
+            .onDisappear {
+                motionManager.stopUpdates()
+            }
         }
     }
 }
@@ -53,7 +55,8 @@ extension ContentView {
                 )
                 .foregroundStyle(color)
                 
-                if index + 1 == data.count {
+                if (index + 1) % 25 == 0 {
+//                if index + 1 == data.count {
                     PointMark(
                         x: .value("Time", index),
                         y: .value("Roll", value)

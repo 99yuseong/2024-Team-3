@@ -19,6 +19,8 @@
 		4250FA082C1CAA05006E83C0 /* ActionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */; };
 		4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */; };
 		4250FA0C2C1CAA52006E83C0 /* ActionTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */; };
+		4250FA102C1CC492006E83C0 /* ActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA0F2C1CC492006E83C0 /* ActionModel.swift */; };
+		4250FA122C1CC7CB006E83C0 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FA112C1CC7CB006E83C0 /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		4250FA072C1CAA05006E83C0 /* ActionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSelectionView.swift; sourceTree = "<group>"; };
 		4250FA092C1CAA38006E83C0 /* ActionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDetailView.swift; sourceTree = "<group>"; };
 		4250FA0B2C1CAA52006E83C0 /* ActionTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTutorialView.swift; sourceTree = "<group>"; };
+		4250FA0F2C1CC492006E83C0 /* ActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModel.swift; sourceTree = "<group>"; };
+		4250FA112C1CC7CB006E83C0 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +80,11 @@
 				4250F9FA2C1C7D80006E83C0 /* MotionManager.swift */,
 				4250F9FE2C1C922C006E83C0 /* HapticManager.swift */,
 				4250FA002C1C9450006E83C0 /* SoundManager.swift */,
+				4250FA0F2C1CC492006E83C0 /* ActionModel.swift */,
 				4250FA042C1C9479006E83C0 /* Sounds */,
 				4250F9F02C1C7C8F006E83C0 /* Assets.xcassets */,
 				4250F9F22C1C7C8F006E83C0 /* Preview Content */,
+				4250FA112C1CC7CB006E83C0 /* Color+.swift */,
 			);
 			path = kkeokkEulTime;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 				4250F9FF2C1C922C006E83C0 /* HapticManager.swift in Sources */,
 				4250F9FB2C1C7D80006E83C0 /* MotionManager.swift in Sources */,
 				4250F9FD2C1C86B3006E83C0 /* Double+.swift in Sources */,
+				4250FA102C1CC492006E83C0 /* ActionModel.swift in Sources */,
 				4250F9ED2C1C7C8E006E83C0 /* kkeokkEulTimeApp.swift in Sources */,
 				4250FA0A2C1CAA38006E83C0 /* ActionDetailView.swift in Sources */,
+				4250FA122C1CC7CB006E83C0 /* Color+.swift in Sources */,
 				4250FA012C1C9450006E83C0 /* SoundManager.swift in Sources */,
 				4250FA082C1CAA05006E83C0 /* ActionSelectionView.swift in Sources */,
 			);

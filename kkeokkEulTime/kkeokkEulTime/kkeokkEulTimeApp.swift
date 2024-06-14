@@ -11,7 +11,8 @@ import SwiftUI
 struct kkeokkEulTimeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ActionSelectionView()
+                .preferredColorScheme(.dark)
         }
     }
 }
