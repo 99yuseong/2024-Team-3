@@ -6,6 +6,8 @@
 
 ![Slide 16_9 - 2](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/25d0ffd3-0795-479d-a6af-0263aef07fee)
 
+![Slide 16_9 - 4](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/4c315649-bae9-4983-bc46-5a23cac3b7f8)
+
 <br/>
 
 ### 앱 화면
