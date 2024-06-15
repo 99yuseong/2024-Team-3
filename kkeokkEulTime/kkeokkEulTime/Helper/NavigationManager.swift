@@ -87,6 +87,7 @@ extension NavigationManager {
     func pushNewAction(to pathType: PathType) {
         guard let lastIndex = path.lastIndex(of: .actionSelection) else { return }
         path.removeLast(path.count - (lastIndex + 1))
+        
         path.append(pathType)
     }
 }
