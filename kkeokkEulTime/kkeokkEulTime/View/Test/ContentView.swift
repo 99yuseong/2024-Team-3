@@ -55,7 +55,6 @@ extension ContentView {
                 .foregroundStyle(color)
                 
                 if (index + 1) % 25 == 0 {
-//                if index + 1 == data.count {
                     PointMark(
                         x: .value("Time", index),
                         y: .value("Roll", value)

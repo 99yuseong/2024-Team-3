@@ -49,7 +49,7 @@
 		4250FA652C1D2DCE006E83C0 /* woiWoi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA602C1D2DCE006E83C0 /* woiWoi.mp4 */; };
 		4250FA662C1D2DCE006E83C0 /* nextLevel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA612C1D2DCE006E83C0 /* nextLevel.mp4 */; };
 		4250FA672C1D2DCE006E83C0 /* getOut.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA622C1D2DCE006E83C0 /* getOut.mp4 */; };
-		4250FA6B2C1D33B9006E83C0 /* rogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA6A2C1D33B9006E83C0 /* rogo.gif */; };
+		4250FA6B2C1D33B9006E83C0 /* LogoGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4250FA6A2C1D33B9006E83C0 /* LogoGIF.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,7 +97,7 @@
 		4250FA602C1D2DCE006E83C0 /* woiWoi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = woiWoi.mp4; sourceTree = "<group>"; };
 		4250FA612C1D2DCE006E83C0 /* nextLevel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nextLevel.mp4; sourceTree = "<group>"; };
 		4250FA622C1D2DCE006E83C0 /* getOut.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = getOut.mp4; sourceTree = "<group>"; };
-		4250FA6A2C1D33B9006E83C0 /* rogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rogo.gif; sourceTree = "<group>"; };
+		4250FA6A2C1D33B9006E83C0 /* LogoGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LogoGIF.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,6 @@
 				4250FA442C1CF165006E83C0 /* Helper */,
 				4250FA432C1CF15C006E83C0 /* Model */,
 				4250FA142C1CD70D006E83C0 /* View */,
-				4250F9EE2C1C7C8E006E83C0 /* ContentView.swift */,
 				4250F9F22C1C7C8F006E83C0 /* Preview Content */,
 			);
 			path = kkeokkEulTime;
@@ -163,6 +162,7 @@
 		4250FA142C1CD70D006E83C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4250FA6D2C1D38A2006E83C0 /* Test */,
 				4250FA162C1CD722006E83C0 /* OnBoarding */,
 				4250FA152C1CD71A006E83C0 /* Action */,
 			);
@@ -194,9 +194,9 @@
 		4250FA192C1CD7E3006E83C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4250F9F02C1C7C8F006E83C0 /* Assets.xcassets */,
-				4250FA6A2C1D33B9006E83C0 /* rogo.gif */,
 				4250FA2D2C1CD817006E83C0 /* Info.plist */,
+				4250F9F02C1C7C8F006E83C0 /* Assets.xcassets */,
+				4250FA6C2C1D3869006E83C0 /* GIF */,
 				4250FA402C1CF070006E83C0 /* Videos */,
 				4250FA042C1C9479006E83C0 /* Sounds */,
 				4250FA1A2C1CD7ED006E83C0 /* Fonts */,
@@ -282,6 +282,22 @@
 			path = Global;
 			sourceTree = "<group>";
 		};
+		4250FA6C2C1D3869006E83C0 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				4250FA6A2C1D33B9006E83C0 /* LogoGIF.gif */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		4250FA6D2C1D38A2006E83C0 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				4250F9EE2C1C7C8E006E83C0 /* ContentView.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,7 +362,7 @@
 				4250FA2C2C1CD7F9006E83C0 /* Pretendard-SemiBold.otf in Resources */,
 				4250FA252C1CD7F9006E83C0 /* Pretendard-Medium.otf in Resources */,
 				4250FA662C1D2DCE006E83C0 /* nextLevel.mp4 in Resources */,
-				4250FA6B2C1D33B9006E83C0 /* rogo.gif in Resources */,
+				4250FA6B2C1D33B9006E83C0 /* LogoGIF.gif in Resources */,
 				4250FA522C1D0041006E83C0 /* countDown.mp3 in Resources */,
 				4250FA672C1D2DCE006E83C0 /* getOut.mp4 in Resources */,
 				4250FA282C1CD7F9006E83C0 /* Pretendard-Thin.otf in Resources */,

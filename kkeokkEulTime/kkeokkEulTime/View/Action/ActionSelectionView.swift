@@ -28,7 +28,7 @@ struct ActionSelectionView: View {
         }
         .background(Color(hex: "#323232"))
         .navigationBarTitleDisplayMode(.large)
-        .navigationTitle("꺾는 시간")
+        .navigationTitle("꺾을 시간")
     }
 }
 
