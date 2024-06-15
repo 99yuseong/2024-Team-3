@@ -27,7 +27,7 @@ struct ActionTryGiftView: View {
                     .foregroundColor(.white)
                     .overlay {
                         RoundedRectangle(cornerRadius: 50)
-                            .frame(width: 187, height: 32)
+                            .frame(width: 280, height: 32)
                             .foregroundStyle(.white.opacity(0.12))
                     }
                 

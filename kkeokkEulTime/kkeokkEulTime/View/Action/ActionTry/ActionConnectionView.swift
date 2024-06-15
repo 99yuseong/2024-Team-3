@@ -75,8 +75,8 @@ struct ActionConnectionView: View {
             VStack {
                 Spacer()
                 Button {
-                    cancellable?.cancel()
                     NavigationManager.shared.pushNewAction(to: .actionTryVideo(actionModel: action))
+                    cancellable?.cancel()
                 } label: {
                     Image("SkipButton")
                 }
