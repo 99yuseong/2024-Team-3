@@ -37,7 +37,7 @@ struct OnboardingMainView: View {
                 
                 Spacer()
                 
-                GifImageView("rogo")
+                GifImageView("LogoGIF")
                     .frame(width: 200, height: 200)
                 
                 Spacer()
