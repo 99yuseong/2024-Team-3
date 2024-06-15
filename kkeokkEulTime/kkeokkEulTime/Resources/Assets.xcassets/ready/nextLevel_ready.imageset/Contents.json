@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "nextLevel_fill 2.png",
+      "filename" : "nextLevel_ready.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "nextLevel_fill.png",
+      "filename" : "nextLevel_ready 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "nextLevel_fill 1.png",
+      "filename" : "nextLevel_ready 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

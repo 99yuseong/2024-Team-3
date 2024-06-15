@@ -18,25 +18,21 @@ struct ActionModel: Hashable {
 }
 
 extension ActionModel {
-    
-}
-
-extension ActionModel {
     static let all = ActionModel(
-        type: .all,
-        selectionImage: "all",
-        originalImage: "all_fill",
-        readyImage: "all_ready",
-        tutorialVideo: "all",
+        type: .nextLevel,
+        selectionImage: "nextLevel",
+        originalImage: "nextLevel_fill",
+        readyImage: "nextLevel_ready",
+        tutorialVideo: "nextLevel",
         selectionTitle: "전체 재생",
         actionCount: 10,
-        giftSetenceShort: "이수만이 잡아갈 확률 높아짐",
-        giftSetenceLong: "손목도 건강해지고\n이수만이 잡아갈 확률이 높아졌어요",
-        giftImage: "all_gift",
+        giftSetenceShort: "에스파로 데뷔할 확률 높아짐",
+        giftSetenceLong: "손목도 건강해지고\n에스파로 데뷔할 확률이 높아졌어요",
+        giftImage: "nextLevel_gift",
         giftTitle: ["IT업계의", "SM상"],
-        selectionDescription: "손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기",
-        readySentence: "팔을 뻗어서 스트레칭을 준비해주세요",
-        practiceImages: ["all_practice_1", "all_practice_2"]
+        selectionDescription: "손목이 잘 꺾이는 카리나처럼..\n손목터널 증후군 자가 진단을 해보세요",
+        readySentence: "손목을 뒤로 젖혀 스트레칭을 준비하세요",
+        practiceImages: ["nextLevel_practice_1", "nextLevel_practice_2"]
     )
     
     static let nextLevel = ActionModel(
@@ -45,14 +41,14 @@ extension ActionModel {
         originalImage: "nextLevel_fill",
         readyImage: "nextLevel_ready",
         tutorialVideo: "nextLevel",
-        selectionTitle: "노려보자 카리나",
+        selectionTitle: "노려보자 제 5의 에스파 멤버",
         actionCount: 10,
-        giftSetenceShort: "이수만이 잡아갈 확률 높아짐",
-        giftSetenceLong: "손목도 건강해지고\n이수만이 잡아갈 확률이 높아졌어요",
+        giftSetenceShort: "에스파로 데뷔할 확률 높아짐",
+        giftSetenceLong: "손목도 건강해지고\n에스파로 데뷔할 확률이 높아졌어요",
         giftImage: "nextLevel_gift",
         giftTitle: ["IT업계의", "SM상"],
-        selectionDescription: "손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기",
-        readySentence: "팔을 뻗어서 스트레칭을 준비해주세요",
+        selectionDescription: "손목이 잘 꺾이는 카리나처럼..\n손목터널 증후군 자가 진단을 해보세요",
+        readySentence: "손목을 뒤로 젖혀 스트레칭을 준비하세요",
         practiceImages: ["nextLevel_practice_1", "nextLevel_practice_2"]
     )
     
@@ -64,12 +60,12 @@ extension ActionModel {
         tutorialVideo: "getOut",
         selectionTitle: "나가주세요",
         actionCount: 10,
-        giftSetenceShort: "이수만이 잡아갈 확률 높아짐",
-        giftSetenceLong: "손목도 건강해지고\n이수만이 잡아갈 확률이 높아졌어요",
+        giftSetenceShort: "문의는 디엠으로",
+        giftSetenceLong: "손님에게 예의를 갖춰달라고\n말할 수 있는 용기 탑제",
         giftImage: "getOut_gift",
-        giftTitle: ["IT업계의", "SM상"],
-        selectionDescription: "손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기",
-        readySentence: "팔을 뻗어서 스트레칭을 준비해주세요",
+        giftTitle: ["문의는", "디엠으로"],
+        selectionDescription: "손목을 부드럽게 돌리는 것만으로도\n손목 바깥쪽 시큰거리는 통증을 줄일 수 있어요",
+        readySentence: "손바닥을 붙여 스트레칭을 준비하세요",
         practiceImages: ["getOut_practice_1", "getOut_practice_2"]
     )
     
@@ -81,12 +77,12 @@ extension ActionModel {
         tutorialVideo: "cutter",
         selectionTitle: "썰어버려",
         actionCount: 10,
-        giftSetenceShort: "이수만이 잡아갈 확률 높아짐",
-        giftSetenceLong: "손목도 건강해지고\n이수만이 잡아갈 확률이 높아졌어요",
+        giftSetenceShort: "암살 실력 습득",
+        giftSetenceLong: "평소 마음에 담아두던 그이를/n시원하게 암살",
         giftImage: "cutter_gift",
-        giftTitle: ["IT업계의", "SM상"],
-        selectionDescription: "손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기",
-        readySentence: "팔을 뻗어서 스트레칭을 준비해주세요",
+        giftTitle: ["사수님", "안마 해드릴까요?"],
+        selectionDescription: "경직된 손목을 풀어주어\n손목 안쪽 찌릿한 통증을 줄일 수 있어요",
+        readySentence: "팔을 뻗어서 스트레칭을 준비하세요",
         practiceImages: ["cutter_practice_1", "cutter_practice_2"]
     )
     
@@ -96,14 +92,14 @@ extension ActionModel {
         originalImage: "shake_fill",
         readyImage: "shake_ready",
         tutorialVideo: "shake",
-        selectionTitle: "털어",
+        selectionTitle: "손목 쉐이크",
         actionCount: 10,
-        giftSetenceShort: "이수만이 잡아갈 확률 높아짐",
-        giftSetenceLong: "손목도 건강해지고\n이수만이 잡아갈 확률이 높아졌어요",
+        giftSetenceShort: "물기를 털어 손이 보송해짐",
+        giftSetenceLong: "손목도 아끼고 나무도 아끼고\n단, 너무 쎄게 하진 마세요",
         giftImage: "shake_gift",
-        giftTitle: ["IT업계의", "SM상"],
-        selectionDescription: "손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기",
-        readySentence: "팔을 뻗어서 스트레칭을 준비해주세요",
+        giftTitle: ["손 씻고", "실천해봐요"],
+        selectionDescription: "손목에게 휴식을!\n손목 근육과 신경을 이완시켜\n손 저림 증상을 예방할 수 있어요",
+        readySentence: "팔꿈치를 구부려 스트레칭을 준비하세요",
         practiceImages: ["shake_practice_1", "shake_practice_2"]
     )
     
@@ -113,14 +109,14 @@ extension ActionModel {
         originalImage: "woiWoi_fill",
         readyImage: "woiWoi_ready",
         tutorialVideo: "woiWoi",
-        selectionTitle: "워이워이",
+        selectionTitle: "후진 안내 마스터",
         actionCount: 10,
-        giftSetenceShort: "이수만이 잡아갈 확률 높아짐",
-        giftSetenceLong: "손목도 건강해지고\n이수만이 잡아갈 확률이 높아졌어요",
+        giftSetenceShort: "베스트 드라이버가 됨",
+        giftSetenceLong: "좀 더 뒤로,, 더 더 스탑 스탑,,,",
         giftImage: "woiWoi_gift",
-        giftTitle: ["IT업계의", "SM상"],
-        selectionDescription: "손목 터널 증후군이 없는 카리나처럼... 증후군 자가진단 해보기",
-        readySentence: "팔을 뻗어서 스트레칭을 준비해주세요",
+        giftTitle: ["오라이", "오라이"],
+        selectionDescription: "손목 힘줄과 신경을 강하게 스트레칭하세요\n약한 손목을 튼튼하게 만들 수 있어요",
+        readySentence: "팔을 뻗어서 스트레칭을 준비하세요",
         practiceImages: ["woiWoi_practice_1", "woiWoi_practice_2"]
     )
     

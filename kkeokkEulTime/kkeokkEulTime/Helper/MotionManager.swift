@@ -38,8 +38,8 @@ class MotionManager {
     var isShacking: Bool = false
     var isNextLevel: Bool = false
     var isGetOut: Bool = false
-    var isWoiWoi: WristMotion = .none
-    var isCutter: WristMotion = .none
+    var isWoiWoi: Bool = false
+    var isCutter: Bool = false
     
     @ObservationIgnored var dataCounts: Int { _dataCounts }
     @ObservationIgnored private let _dataCounts: Int = 100
@@ -63,33 +63,19 @@ extension MotionManager {
                 self.yawData.append(yaw)
                 
                 // MARK: - 1. 워이워이
-                switch roll {
-                case 1.5...2.0:
-                    self.isWoiWoi = .unFolded
-                case (-2.3)...(-2.0):
-                    self.isWoiWoi = .rolled
-                default:
-                    self.isWoiWoi = .none
-                }
+                self.isWoiWoi = roll.toPositive() > 8
                 
                 // MARK: - 2. 썰어버려
-                switch pitch {
-                case 0.25...0.35:
-                    self.isCutter = .unFolded
-                case 1.2...1.35:
-                    self.isCutter = .rolled
-                default:
-                    self.isCutter = .none
-                }
+                self.isCutter = pitch < 0.7
                 
                 // MARK: - 3. 나가주세요
-                self.isGetOut = pitch < -0.6
+                self.isGetOut = pitch < 0.2
                 
                 // MARK: - 4. 노려보자 카리나
                 self.isNextLevel = abs(abs(pitch) - abs(roll)) < 0.1
                 
                 // MARK: - 5. 털어
-                self.isShacking = accelerationMagnitude > 1.5
+                self.isShacking = accelerationMagnitude > 1
                 
                 if self.rollData.count > _dataCounts {
                     self.rollData.removeFirst()
@@ -111,11 +97,11 @@ extension MotionManager {
         case .getOut:
             return isGetOut
         case .cutter:
-            return isCutter == .rolled || isCutter == .unFolded
+            return isCutter
         case .shake:
             return isShacking
         case .woiWoi:
-            return isWoiWoi == .rolled || isWoiWoi == .unFolded
+            return isWoiWoi
         default:
             return false
         }

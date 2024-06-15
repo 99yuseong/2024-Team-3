@@ -11,7 +11,7 @@ struct ActionSelectionView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 10) {
-                SelectionView(action: ActionModel.nextLevel)
+                SelectionView(action: ActionModel.all)
                     .overlay(
                         RoundedRectangle(cornerRadius: 12)
                             .stroke(Color(hex: "12DE89"), lineWidth: 3)

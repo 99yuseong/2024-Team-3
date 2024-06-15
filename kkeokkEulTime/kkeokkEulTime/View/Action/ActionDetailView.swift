@@ -15,8 +15,8 @@ struct ActionDetailView: View {
             ZStack(alignment: .bottom) {
                 Image(action.originalImage)
                     .resizable()
-                    .frame(height: 525)
                     .scaledToFill()
+                    .frame(height: 525)
                 
                 LinearGradient(
                     gradient: Gradient(colors: [

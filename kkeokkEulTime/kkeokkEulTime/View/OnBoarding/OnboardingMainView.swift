@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct OnboardingMainView: View {
     var body: some View {
@@ -33,6 +34,11 @@ struct OnboardingMainView: View {
                 }
                 .padding(.top, 44)
                 .padding(.horizontal, 28)
+                
+                Spacer()
+                
+                GifImageView("rogo")
+                    .frame(width: 200, height: 200)
                 
                 Spacer()
                 
@@ -71,6 +77,25 @@ struct OnboardingMainView: View {
                 .background(Color(hex: "03C367"))
             }
         }
+    }
+}
+
+struct GifImageView: UIViewRepresentable {
+    private let name: String
+    
+    init(_ name: String) {
+        self.name = name
+    }
+    
+    func makeUIView(context: Context) -> WKWebView {
+        let webview = WKWebView()
+        let url = Bundle.main.url(forResource: name, withExtension: "gif")!
+        let data = try! Data(contentsOf: url)
+        webview.load(data, mimeType: "image/gif", characterEncodingName: "UTF-8", baseURL: url.deletingLastPathComponent())
+        return webview
+    }
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        uiView.reload()
     }
 }
 

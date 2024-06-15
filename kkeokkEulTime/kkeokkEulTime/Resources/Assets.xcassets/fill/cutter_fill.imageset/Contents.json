@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "cutter_fill 2.png",
+      "filename" : "cutter_fill.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cutter_fill.png",
+      "filename" : "cutter_fill 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cutter_fill 1.png",
+      "filename" : "cutter_fill 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
