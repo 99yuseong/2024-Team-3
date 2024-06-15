@@ -16,11 +16,12 @@ enum PathType: Hashable {
     
     case actionSelection
     case actionDetail(actionModel: ActionModel)
-    case actionTutorial(actionModel: ActionModel)
-    case motionTry(actionModel: ActionModel)
-    case motionTryDetail(actionModel: ActionModel)
-    case motionPractice(actionModel: ActionModel)
-    case motionPracticeFinish(actionModel: ActionModel)
+    case actionTryVideo(actionModel: ActionModel)
+    case actionTryReady(actionModel: ActionModel)
+    case actionTryCountDown(actionModel: ActionModel)
+    case actionTry(actionModel: ActionModel)
+    case actionTryGift(actionModel: ActionModel)
+    case actionConnection(actionModel: ActionModel)
 }
 
 extension PathType {
@@ -41,16 +42,18 @@ extension PathType {
             ActionSelectionView()
         case .actionDetail(let actionModel):
             ActionDetailView(action: actionModel)
-        case .actionTutorial(let actionModel):
-            ActionTutorialView(action: actionModel)
-        case .motionTry(let actionModel):
-            MotionTryView(action: actionModel)
-        case .motionTryDetail(let actionModel):
-            MotionTryDetailView(action: actionModel)
-        case .motionPractice(let actionModel):
-            MotionPracticeView(action: actionModel)
-        case .motionPracticeFinish(let actionModel):
-            MotionPracticeFinishView(action: actionModel)
+        case .actionTryVideo(let actionModel):
+            ActionTryVideoView(action: actionModel)
+        case .actionTryReady(let actionModel):
+            ActionTryReadyView(action: actionModel)
+        case .actionTryCountDown(let actionModel):
+            ActionTryCountDownView(action: actionModel)
+        case .actionTry(let actionModel):
+            ActionTryView(action: actionModel)
+        case .actionTryGift(let actionModel):
+            ActionTryGiftView(action: actionModel)
+        case .actionConnection(let actionModel):
+            ActionConnectionView(action: actionModel)
         }
     }
 }
@@ -79,5 +82,11 @@ extension NavigationManager {
     func pop(to pathType: PathType) {
         guard let lastIndex = path.lastIndex(of: pathType) else { return }
         path.removeLast(path.count - (lastIndex + 1))
+    }
+    
+    func pushNewAction(to pathType: PathType) {
+        guard let lastIndex = path.lastIndex(of: .actionSelection) else { return }
+        path.removeLast(path.count - (lastIndex + 1))
+        path.append(pathType)
     }
 }

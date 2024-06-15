@@ -60,7 +60,7 @@ struct ActionDetailView: View {
                     Spacer()
                     
                     Button {
-                        NavigationManager.shared.push(to: .actionTutorial(actionModel: action))
+                        NavigationManager.shared.push(to: .actionTryVideo(actionModel: action))
                     } label: {
                         Image(systemName: "play.circle.fill")
                             .resizable()
@@ -83,7 +83,7 @@ struct ActionDetailView: View {
                 Button {
                     NavigationManager.shared.pop()
                 } label: {
-                    Image(systemName: "chevron.left")
+                    Image(systemName: "xmark")
                         .resizable()
                         .scaledToFit()
                         .font(.system(size: 17))

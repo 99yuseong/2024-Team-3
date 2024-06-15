@@ -61,11 +61,13 @@ struct OnboardingMoveView: View {
         .onChange(of: motionManager.isShacking) {
             if motionManager.isShacking {
                 HapticManager.shared.impact(style: .medium)
+                SoundManager.shared.playSound(sounds: .motionDoing)
                 moveCount -= 1
             }
         }
         .onChange(of: moveCount) {
             if moveCount == 0 {
+                SoundManager.shared.playSound(sounds: .motionDone)
                 NavigationManager.shared.push(to: .onboardingFinish)
             }
         }
