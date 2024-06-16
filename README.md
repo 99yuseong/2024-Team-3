@@ -1,3 +1,16 @@
+[![Swift Version][swift-image]][swift-url]
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+### Skills & Tech Stack
+
+<div>
+<img src="https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/swiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white">
+<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white">
+<div>
+
 # 꺾을 시간
 ### 손목 스트레칭을 더 재미있게 할 수 있는 방법
 <img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/90fd01fc-87d1-4656-9745-56deab63e365" alt="Slide 16_9 - 3" width="800"/>
@@ -7,18 +20,6 @@
 <img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/4c315649-bae9-4983-bc46-5a23cac3b7f8" alt="Slide 16_9 - 3" width="800"/>
 
 <br/>
-
-### Requirements
-- iOS 17.0+
-- Xcode 15.3
-
-### Skills & Tech Stack
-<div>
-<img src="https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white">
-<img src="https://img.shields.io/badge/swiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white">
-<img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white">
-<div>
 
 ### Features
 - [x] Onboarding
@@ -42,7 +43,12 @@
 
 <br/>
 
+### Requirements
+- iOS 17.0+
+- Xcode 15.3
+
 ### Team 북쪽에 계신 아름다운 메리메리 리얼 카인드니스
-|라뮤|라무네|티나|도란|
+
+|[남유성(Lamyu)](https://github.com/99yuseong)|[신수진(Ramune)](https://github.com/Jinjinjinzin)|[김서우(Tina)](https://github.com/gorgeouseowoo)|[서동원(Doran)](https://github.com/HappyDoran)|
 |:-:|:-:|:-:|:-:|
-|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/e30c15c4-6ae5-4dfc-bdce-945cc26c5b4c">|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/e54ac767-bc67-4763-ba43-04c60ccf6bf6">|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/e30c15c4-6ae5-4dfc-bdce-945cc26c5b4c">|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/0bb9ce41-dbcf-4277-9411-1f36fece7a45">|
+|<img width="200" src="https://avatars.githubusercontent.com/u/75793880?v=4">|<img width="200" src="https://avatars.githubusercontent.com/u/149608045?v=4">|<img width="200" src="https://avatars.githubusercontent.com/u/80272734?v=4">|<img width="200" src="https://avatars.githubusercontent.com/u/52277540?v=4">|
