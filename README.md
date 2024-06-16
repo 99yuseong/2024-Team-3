@@ -1,16 +1,3 @@
-[![Swift Version][swift-image]][swift-url]
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-### Skills & Tech Stack
-
-<div>
-<img src="https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white">
-<img src="https://img.shields.io/badge/swiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white">
-<img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white">
-<div>
-
 # 꺾을 시간
 ### 손목 스트레칭을 더 재미있게 할 수 있는 방법
 <img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/90fd01fc-87d1-4656-9745-56deab63e365" alt="Slide 16_9 - 3" width="800"/>
@@ -27,6 +14,15 @@
   - [x] Stretching series
   - [x] Tutorial Video
   - [x] Haptics Feedback 
+
+### Skills & Tech Stack
+
+<div>
+<img src="https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/swiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white">
+<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white">
+<div>
 
 ### 앱 화면
 | 온보딩화면 | 시작화면 | 선택화면 |상세화면 |
