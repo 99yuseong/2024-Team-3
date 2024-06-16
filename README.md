@@ -1,12 +1,10 @@
 # 지금은 손목 꺾을 시간!
 ### 손목 스트레칭을 더 재미있게 할 수 있는 방법
-![Slide 16_9 - 3](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/90fd01fc-87d1-4656-9745-56deab63e365)
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/90fd01fc-87d1-4656-9745-56deab63e365" alt="Slide 16_9 - 3" width="600"/>
 
-![Slide 16_9 - 1](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/c64d1ce9-f620-499e-a470-541e5394ae6f)
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/c64d1ce9-f620-499e-a470-541e5394ae6f" alt="Slide 16_9 - 3" width="600"/>
 
-![Slide 16_9 - 2](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/25d0ffd3-0795-479d-a6af-0263aef07fee)
-
-![Slide 16_9 - 4](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/4c315649-bae9-4983-bc46-5a23cac3b7f8)
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/4c315649-bae9-4983-bc46-5a23cac3b7f8" alt="Slide 16_9 - 3" width="600"/>
 
 <br/>
 
