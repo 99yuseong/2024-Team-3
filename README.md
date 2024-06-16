@@ -45,4 +45,5 @@
 ### Team 북쪽에 계신 아름다운 메리메리 리얼 카인드니스
 |[남유성(Lamyu)](https://github.com/99yuseong)|[신수진(Ramune)](https://github.com/Jinjinjinzin)|[김서우(Tina)](https://github.com/gorgeouseowoo)|[서동원(Doran)](https://github.com/HappyDoran)|
 |:-:|:-:|:-:|:-:|
+|iOS 개발|디자인|기획|iOS 개발|
 |<img width="200" src="https://avatars.githubusercontent.com/u/75793880?v=4">|<img width="200" src="https://avatars.githubusercontent.com/u/149608045?v=4">|<img width="200" src="https://avatars.githubusercontent.com/u/80272734?v=4">|<img width="200" src="https://avatars.githubusercontent.com/u/52277540?v=4">|
