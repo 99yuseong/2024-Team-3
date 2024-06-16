@@ -1,14 +1,31 @@
-# 지금은 손목 꺾을 시간!
+# 꺾을 시간
 ### 손목 스트레칭을 더 재미있게 할 수 있는 방법
-![Slide 16_9 - 3](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/90fd01fc-87d1-4656-9745-56deab63e365)
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/90fd01fc-87d1-4656-9745-56deab63e365" alt="Slide 16_9 - 3" width="800"/>
 
-![Slide 16_9 - 1](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/c64d1ce9-f620-499e-a470-541e5394ae6f)
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/c64d1ce9-f620-499e-a470-541e5394ae6f" alt="Slide 16_9 - 3" width="800"/>
 
-![Slide 16_9 - 2](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/25d0ffd3-0795-479d-a6af-0263aef07fee)
-
-![Slide 16_9 - 4](https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/4c315649-bae9-4983-bc46-5a23cac3b7f8)
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/4c315649-bae9-4983-bc46-5a23cac3b7f8" alt="Slide 16_9 - 3" width="800"/>
 
 <br/>
+
+### Requirements
+- iOS 17.0+
+- Xcode 15.3
+
+### Skills & Tech Stack
+<div>
+<img src="https://img.shields.io/badge/swift-F05138?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/swiftUI-F05138?style=for-the-badge&logo=swift&logoColor=white">
+<img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white">
+<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white">
+<div>
+
+### Features
+- [x] Onboarding
+- [x] Stretching
+  - [x] Stretching series
+  - [x] Tutorial Video
+  - [x] Haptics Feedback 
 
 ### 앱 화면
 | 온보딩화면 | 시작화면 | 선택화면 |상세화면 |
@@ -26,7 +43,6 @@
 <br/>
 
 ### Team 북쪽에 계신 아름다운 메리메리 리얼 카인드니스
-
 |라뮤|라무네|티나|도란|
 |:-:|:-:|:-:|:-:|
 |<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/e30c15c4-6ae5-4dfc-bdce-945cc26c5b4c">|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/e54ac767-bc67-4763-ba43-04c60ccf6bf6">|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/e30c15c4-6ae5-4dfc-bdce-945cc26c5b4c">|<img width="200" src="https://github.com/Code-Drop-DevAcademy/2024-Team-3/assets/75793880/0bb9ce41-dbcf-4277-9411-1f36fece7a45">|
